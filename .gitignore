@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local database
+sarathi_incidents.db
+
+# Downloaded model files
+yolov8n.pt
+*.pt
+*.onnx
+
+# Generated detection outputs
+outputs/*
+!outputs/.gitkeep
+
+# Local/private data
+data/*
+!data/.gitkeep
+
+# Videos are ignored by default
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Allow only approved sample videos
+!samples/videos/
+!samples/videos/*.mp4
+
+# Temporary files
+*.tmp
+*.log
+
+!samples/
+!samples/videos/
+!samples/videos/people_test.mp4
